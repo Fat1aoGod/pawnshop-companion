@@ -1,0 +1,9 @@
+node_modules/
+runtime/
+build/
+dist/
+.tools/
+plugins/dsh-pawnshop-companion/config.json
+plugins/dsh-pawnshop-companion/binding-state.json
+*.log
+.DS_Store

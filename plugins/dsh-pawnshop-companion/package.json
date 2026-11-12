@@ -1,0 +1,18 @@
+{
+  "name": "dsh-pawnshop-companion",
+  "version": "0.3.1",
+  "description": "把《Probably Stolen》当铺桥接的 26 个工具接到DeepSeek 搭子的原会话：游戏见闻进会话、她的话用 companion_say 发回游戏。",
+  "type": "module",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/session.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "author": "Fat1ao"
+}

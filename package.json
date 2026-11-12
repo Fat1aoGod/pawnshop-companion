@@ -1,0 +1,25 @@
+{
+  "name": "pawnshop-companion",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bridge/server.mjs",
+    "mcp": "node harness/mcp.mjs",
+    "test": "node --test prototype/text-view.test.mjs tests/*.test.mjs",
+    "setup": "node scripts/setup.mjs",
+    "test:dsh": "node --test plugins/dsh-pawnshop-companion/test/session.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "@modelcontextprotocol/server": "2.4.0",
+    "zod": "4.6.7"
+  },
+  "description": "让已有的本地 Agent 会话来《Probably Stolen》陪你看店。",
+  "author": "Fat1ao",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@9.15.9"
+}

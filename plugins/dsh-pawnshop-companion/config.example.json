@@ -1,0 +1,7 @@
+{
+  "sessionId": "",
+  "displayName": "DeepSeek 搭子",
+  "avatarKey": "deepseek",
+  "autoStart": true,
+  "waitTimeoutMs": 45000
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>pawnshop_companion</ID>
+  <Name>当铺搭子</Name>
+  <Author>Fat1ao · Codex</Author>
+  <ModVersion>0.7.0</ModVersion>
+  <Description>左下角的 Q 版伙伴陪你看店，右键立绘操作。支持看日历行情、天赋与难度、阵营声望和黑市，以及批量看箱子、找物品、整理、换电池和操作机器。GPT 龙娘和 DeepSeek 鲸鱼娘可切换。仅连接本机，沿用已有 Agent 会话。</Description>
+  <GameVersions><Version>1.0.0</Version></GameVersions>
+  <Prerequisites />
+  <Assemblies><Assembly>PawnshopCompanion.dll</Assembly></Assemblies>
+  <Capabilities><Capability>network</Capability></Capabilities>
+</Manifest>
