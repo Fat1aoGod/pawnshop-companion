@@ -10,7 +10,7 @@
 
 ## 给安装 Agent
 
-1. 从仓库最新 Release 下载名称包含「接入包」的 ZIP，解压到固定、可写的普通文件夹。完整保留 `bridge`、`prototype`、`harness`、`node_modules` 等目录。不要放进游戏 Mods 或 Steam Workshop 目录。
+1. 从仓库最新 Release 下载文件名以 `-connectors.zip` 结尾的接入包，解压到固定、可写的普通文件夹。完整保留 `bridge`、`prototype`、`harness`、`node_modules` 等目录。不要放进游戏 Mods 或 Steam Workshop 目录。
 2. 确认本机 Node.js >=22。发布包已含依赖，无需运行第三方安装脚本；源码包才需要安装依赖。
 3. 在接入包根目录运行 `node scripts/setup.mjs`。它只初始化本机配对配置，生成连接码和当前路径的 MCP 配置，不会新建模型会话。
 4. 用 Codex 自带设置或 CLI 添加名为 `pawnshop_companion` 的本地 MCP：命令为实际 `node.exe` 路径，唯一参数为实际接入包 `harness/mcp.mjs` 的完整路径。CLI 语法：
